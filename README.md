@@ -45,7 +45,15 @@ bash setup_env.sh
 - Package Installation: The script then installs all the necessary Python packages specified in the requirements.txt file.
 - Environment Activation: Finally, the script activates the environment, making it ready for use.
   
-#### Step 4: Deactivate the Environment (Optional)
+#### Step 4: Activate the Environment
+
+After running the setup script, activate the virtual environment by running:
+
+```bash
+source ../env/bin/activate
+```
+
+#### Step 5: Deactivate the Environment (Optional)
 
 When you're done working, you can deactivate the virtual environment by running:
 
