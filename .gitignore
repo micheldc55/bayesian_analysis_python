@@ -1,3 +1,6 @@
+# Remove my own tests
+my_own_projects/*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
